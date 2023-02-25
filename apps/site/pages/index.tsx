@@ -1,8 +1,9 @@
 import { Hero } from '@components/Hero'
 import { TitleAndMetaTags } from '@components/TitleAndMetaTags'
+import { FormsDemo, InputsDemo } from '@tamagui/demos'
 import { Community } from '@tamagui/site/components/HeroCommunity'
 import { FeaturesGrid } from '@tamagui/site/components/HeroFeaturesGrid'
-import { Button, XStack, YStack } from 'tamagui'
+import { Button, XStack, YStack, useDidFinishSSR } from 'tamagui'
 
 import { ContainerLarge } from '../components/Container'
 import { HeroBelow } from '../components/HeroBelow'
@@ -20,6 +21,10 @@ import { HomeSection, SectionTinted, TintSection } from '../components/TintSecti
 import { getCompilationExamples } from '../lib/getCompilationExamples'
 
 export default function Home({ animationCode, compilationExamples }) {
+  const isHydrated = useDidFinishSSR()
+
+  return <YStack>{isHydrated ? <InputsDemo /> : null}</YStack>
+
   return (
     <>
       <HomeGlow />

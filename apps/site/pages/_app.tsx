@@ -106,6 +106,8 @@ function ContentInner({ Component, pageProps }: AppProps) {
 
   const disableNew = isHome || isBlog
 
+  return <Component {...pageProps} />
+
   return getLayout(
     <>
       {!isTest && !isResponsiveDemo && <Header disableNew={isHome || isBlog} />}
