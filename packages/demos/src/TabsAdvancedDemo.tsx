@@ -39,7 +39,7 @@ export const TabsAdvancedDemo = () => {
     ) {
       return 0
     }
-    return selectIndicator.x > prevSelectionIndicatorLayout.current.x ? 1 : -1
+    return selectIndicator.x > prevSelectionIndicatorLayout.current.x ? -1 : 1
   })()
 
   const enterVariant =
