@@ -95,10 +95,14 @@ export const docsRoutes = [
       { title: 'AlertDialog', route: '/docs/components/alert-dialog' },
       { title: 'Dialog', route: '/docs/components/dialog' },
       { title: 'Popover', route: '/docs/components/popover' },
-      // { title: 'Portal', route: '/docs/components/portal' },
       { title: 'Sheet', route: '/docs/components/sheet' },
       { title: 'Tooltip', route: '/docs/components/tooltip' },
     ],
+  },
+
+  {
+    label: 'Organization',
+    pages: [{ title: 'Tabs', route: '/docs/components/tabs' }],
   },
 
   {

@@ -2,7 +2,6 @@ import { Activity, Airplay } from '@tamagui/lucide-icons'
 import { Button, Group, ListItem, Separator, XGroup, YGroup, YStack } from 'tamagui'
 
 export function GroupDemo() {
-  return (
     <YStack p="$3" space="$2" ai="center">
       <Group axis="horizontal">
         <Group.Item>

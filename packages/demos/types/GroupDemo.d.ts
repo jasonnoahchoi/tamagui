@@ -1,3 +1,2 @@
-/// <reference types="react" />
-export declare function GroupDemo(): JSX.Element;
+export declare function GroupDemo(): void;
 //# sourceMappingURL=GroupDemo.d.ts.map
