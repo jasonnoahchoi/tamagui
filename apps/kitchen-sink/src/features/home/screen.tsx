@@ -157,7 +157,6 @@ const demos = [
       { title: 'Group', route: '/demo/group' },
       { title: 'Image', route: '/demo/image' },
       { title: 'ListItem', route: '/demo/list-item' },
-      { title: 'Tabs', route: '/demo/tabs' },
     ],
   },
 
