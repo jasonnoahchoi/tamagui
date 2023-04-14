@@ -12,7 +12,7 @@
     "dist"
   ],
   "scripts": {
-    "dev": "cd ../.. && yarn studio",
+    "dev": "DISABLE_EXTRACTION=true NODE_ENV=development webpack serve",
     "tauri": "tauri dev",
     "build:takeout": "tamagui-build",
     "watch:takeout": "tamagui-build --watch",
@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "@supabase/auth-helpers-react": "^0.3.1",
-    "@supabase/supabase-js": "^2.14.0",
+    "@supabase/supabase-js": "^2.20.0",
     "@tamagui/animations-reanimated": "^1.15.0",
     "@tamagui/colors": "^1.15.0",
     "@tamagui/config": "^1.15.0",
