@@ -1,3 +1,5 @@
+- XGroup + borderRadius doesn't set radius (see studio/header)
+
 - yarn release --canary
 
 - Popover trigger="hover"
