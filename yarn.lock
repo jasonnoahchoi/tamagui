@@ -4308,47 +4308,6 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@takeout/studio@1.5.24, @takeout/studio@workspace:takeout/studio":
-  version: 0.0.0-use.local
-  resolution: "@takeout/studio@workspace:takeout/studio"
-  dependencies:
-    "@babel/preset-react": ^7.18.6
-    "@babel/preset-typescript": ^7.18.6
-    "@supabase/auth-helpers-react": ^0.3.1
-    "@supabase/supabase-js": ^2.20.0
-    "@tamagui/animations-reanimated": ^1.15.0
-    "@tamagui/build": ^1.15.0
-    "@tamagui/colors": ^1.15.0
-    "@tamagui/config": ^1.15.0
-    "@tamagui/core": ^1.15.0
-    "@tamagui/lucide-icons": ^1.15.0
-    "@tamagui/polyfill-dev": ^1.15.0
-    "@tamagui/static": ^1.15.0
-    "@tamagui/themes": ^1.15.0
-    "@tauri-apps/api": ^1.2.0
-    "@tauri-apps/cli": ^1.2.2
-    "@types/d3-scale": ^4.0.2
-    "@types/lodash-es": ^4.17.6
-    "@types/uuid": ^8.3.4
-    babel-polyfill: ^6.26.0
-    color2k: ^1.2.4
-    d3-scale: ^3.3.0
-    esbuild-loader: ^2.20.0
-    graphql-tag: ^2.12.6
-    hsluv: ^0.1.0
-    lodash-es: ^4.17.21
-    react-draggable: ^4.4.5
-    react-hotkeys-hook: ^3.4.6
-    react-native: ^0.71.4
-    react-refresh: ^0.14.0
-    tamagui: ^1.15.0
-    ts-morph: ^15.1.0
-    use-valtio: ^0.0.2
-    valtio: ^1.10.4
-    vite: ^4.2.1
-  languageName: unknown
-  linkType: soft
-
 "@tamagui/accordion@workspace:packages/accordion":
   version: 0.0.0-use.local
   resolution: "@tamagui/accordion@workspace:packages/accordion"
@@ -4438,7 +4397,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@tamagui/animations-reanimated@1.15.0, @tamagui/animations-reanimated@^1.15.0, @tamagui/animations-reanimated@workspace:packages/animations-reanimated":
+"@tamagui/animations-reanimated@1.15.0, @tamagui/animations-reanimated@workspace:packages/animations-reanimated":
   version: 0.0.0-use.local
   resolution: "@tamagui/animations-reanimated@workspace:packages/animations-reanimated"
   dependencies:
@@ -4589,7 +4548,6 @@ __metadata:
     "@callstack/repack-debugger-app": ^1.0.0
     "@fastify/sensible": ^4.1.0
     "@fastify/static": ^5.0.2
-    "@takeout/studio": 1.5.24
     "@tamagui/build": 1.15.0
     "@tamagui/static": 1.15.0
     "@tamagui/types": 1.15.0
@@ -4683,7 +4641,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@tamagui/colors@1.15.0, @tamagui/colors@^1.15.0, @tamagui/colors@workspace:packages/colors":
+"@tamagui/colors@1.15.0, @tamagui/colors@workspace:packages/colors":
   version: 0.0.0-use.local
   resolution: "@tamagui/colors@workspace:packages/colors"
   dependencies:
@@ -4754,7 +4712,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@tamagui/config@1.15.0, @tamagui/config@^1.15.0, @tamagui/config@workspace:packages/config":
+"@tamagui/config@1.15.0, @tamagui/config@workspace:packages/config":
   version: 0.0.0-use.local
   resolution: "@tamagui/config@workspace:packages/config"
   dependencies:
@@ -5268,7 +5226,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@tamagui/lucide-icons@1.15.0, @tamagui/lucide-icons@^1.15.0, @tamagui/lucide-icons@workspace:packages/lucide-icons":
+"@tamagui/lucide-icons@1.15.0, @tamagui/lucide-icons@workspace:packages/lucide-icons":
   version: 0.0.0-use.local
   resolution: "@tamagui/lucide-icons@workspace:packages/lucide-icons"
   dependencies:
@@ -5376,7 +5334,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@tamagui/polyfill-dev@1.15.0, @tamagui/polyfill-dev@^1.15.0, @tamagui/polyfill-dev@workspace:packages/polyfill-dev":
+"@tamagui/polyfill-dev@1.15.0, @tamagui/polyfill-dev@workspace:packages/polyfill-dev":
   version: 0.0.0-use.local
   resolution: "@tamagui/polyfill-dev@workspace:packages/polyfill-dev"
   languageName: unknown
@@ -5897,7 +5855,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@tamagui/static@1.15.0, @tamagui/static@^1.15.0, @tamagui/static@workspace:packages/static":
+"@tamagui/static@1.15.0, @tamagui/static@workspace:packages/static":
   version: 0.0.0-use.local
   resolution: "@tamagui/static@workspace:packages/static"
   dependencies:
@@ -6055,7 +6013,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@tamagui/themes@1.15.0, @tamagui/themes@^1.15.0, @tamagui/themes@workspace:packages/themes":
+"@tamagui/themes@1.15.0, @tamagui/themes@workspace:packages/themes":
   version: 0.0.0-use.local
   resolution: "@tamagui/themes@workspace:packages/themes"
   dependencies:
@@ -21798,7 +21756,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"tamagui@1.15.0, tamagui@^1.15.0, tamagui@workspace:packages/tamagui":
+"tamagui@1.15.0, tamagui@workspace:packages/tamagui":
   version: 0.0.0-use.local
   resolution: "tamagui@workspace:packages/tamagui"
   dependencies:
